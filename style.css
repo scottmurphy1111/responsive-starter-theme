@@ -1,0 +1,54 @@
+/*
+Theme Name: [name]
+Theme URI: http://[name].com
+Author: Rocket Pop Media Design & Development Team
+Author URI: http://rocketpopmedia.com/
+Description: [description]
+Version: 1.0
+
+Tags: [tags]
+Text Domain: rpm-starter-theme
+
+*/
+
+/* IMPORT RESET */
+@import url(css/reset.css);
+
+/* IMPORT RESPONSIVE GS */
+@import url(css/responsive.gs.12col.css);
+
+/* IMPORT STYLES */
+@import url(css/min/screen.min.css);
+
+
+/****HEADER STYLES*******/
+
+
+/*****NAV STYLES*******/
+
+
+/*****FOOTER STYLES*******/
+
+
+/*****Helpers STYLES*******/
+.hide-text {
+	overflow: hidden;
+    text-indent: -9999px;
+    white-space: nowrap;
+    position: absolute;
+}
+
+/*****SUB CONTENT STYLES*******/
+
+.alignleft { float: left; margin-right: 15px; }
+.alignright { float: right; margin-left: 15px; }
+
+/*Blog*/
+
+.single #comments { float: left; margin-top: 30px; width: 100%; }
+.single .commentlist { float: left; position: relative; width: 100%; }
+.single .commentlist > li { padding: 10px; }
+.single .comment-author img { float: left; margin-right: 5px; }
+.single .commentmetadata { position: absolute; right: 10px; top: 10px; }
+
+#respond { float: left; margin-top: 30px; }

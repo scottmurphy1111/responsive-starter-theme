@@ -25,7 +25,7 @@
 	<div class="container row">
 		<header role="banner" class="row">
 			<div id="header-left" class="col span_4">
-				<h1 class="logo col span_6"><span class="hide-text">Company Name</span><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" /></a></h1>
+				<h1 class="logo col span_6"><span class="hide-text">Company Name</span><a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/logo.png" /></a></h1>
 				<nav id="mobile" class="col span_6">
 					<div id="toggle-bar">			        
 				        <a class="navicon mtoggle" href="#"></a>

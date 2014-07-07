@@ -1,1 +1,1 @@
-echo "Reponsive WordPress Starter Theme built by Scott Murphy"
+Reponsive WordPress Starter Theme built by Scott Murphy

@@ -7,7 +7,7 @@
 </footer><!-- footer -->
 
 </div><!-- #pg-container -->		
-		<script src="http://use.edgefonts.net/source-sans-pro.js"></script>		
+		<script src="//use.edgefonts.net/source-sans-pro.js"></script>		
 		
 		<script> // Change UA-XXXXX-X to be your site's ID
 			// window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];

@@ -11,6 +11,9 @@
 
 	<meta name="viewport" content="width=device-width">	
 
+	<!--[if IE]>
+      <link href="/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  	<![endif]-->
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>"/>
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
@@ -20,18 +23,6 @@
 
 	
 </head>
-
-
-<head>
-  <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type=
-"text/css" />
-  <link href="/css/print.css" media="print" rel="stylesheet" type="text/css" />
-  <!--[if IE]>
-      <link href="/css/ie.css" media="screen, projection" rel="stylesheet" type=
-"text/css" />
-  <![endif]-->
-</head>
-
 
 <body <?php body_class(); ?>>
 	<div id="pg-container" class="container row">

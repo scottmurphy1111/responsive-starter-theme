@@ -1,5 +1,5 @@
 /*
-Theme Name: [name]
+Theme Name: Responsive Starter Theme
 Theme URI: http://[name].com
 Author: Scott Murphy (Murph) @ Rocket Pop Media
 Author URI: http://rocketpopmedia.com/
@@ -15,6 +15,7 @@ Text Domain: rpm-starter-theme
 @import url(css/responsive.gs.12col.css);
 
 /* IMPORT STYLES */
+@import url(css/print.css);
 @import url(css/screen.css);
 
 

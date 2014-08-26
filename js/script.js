@@ -38,9 +38,8 @@
         }
 
         // Mobile Menu		
-        $(".mtoggle").click(function(e) {
-            $("#mobile-menu").slideToggle(500);
-            $("#mobile-menu").toggleClass("active-mobile-menu inactive-mobile-menu");
+        $(".mtoggle").on('click', function(e) {
+            $("#mobile-menu").slideToggle();            
             e.preventDefault();
         });
 

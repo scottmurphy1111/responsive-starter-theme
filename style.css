@@ -11,23 +11,11 @@ Text Domain: rpm-starter-theme
 
 */
 
-/* IMPORT RESET */
-@import url(css/reset.css);
-
 /* IMPORT RESPONSIVE GS */
 @import url(css/responsive.gs.12col.css);
 
 /* IMPORT STYLES */
-@import url(css/min/screen.min.css);
-
-
-/****HEADER STYLES*******/
-
-
-/*****NAV STYLES*******/
-
-
-/*****FOOTER STYLES*******/
+@import url(css/screen.css);
 
 
 /*****Helpers STYLES*******/
@@ -38,10 +26,42 @@ Text Domain: rpm-starter-theme
     position: absolute;
 }
 
-/*****SUB CONTENT STYLES*******/
+.hide {
+	display: none;
+}
 
-.alignleft { float: left; margin-right: 15px; }
-.alignright { float: right; margin-left: 15px; }
+.show {
+	display: block;
+}
+
+.hide-mobile {
+	display: none;
+}
+
+.hide-desktop {
+	display: block;
+}
+
+@media only screen and (min-width: 480px) {
+	
+}
+
+@media only screen and (min-width: 768px) {
+	.hide-mobile {
+		display: block;
+	}
+
+	.hide-desktop {
+		display: none;
+	}
+
+}
+
+@media only screen and (min-width: 1024px) {
+	
+
+}
+
 
 /*Blog*/
 

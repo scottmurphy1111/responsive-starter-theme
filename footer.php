@@ -6,15 +6,14 @@
 
 </footer><!-- footer -->
 
-</div><!-- container -->		
-		<script type="text/javascript" src="//use.typekit.net/uqa2kot.js"></script>
-		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>		
+</div><!-- #pg-container -->		
+		<script src="http://use.edgefonts.net/source-sans-pro.js"></script>		
 		
 		<script> // Change UA-XXXXX-X to be your site's ID
-		window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
-		Modernizr.load({
-		  load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
-		});
+			// window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+			// Modernizr.load({
+			//   load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+			// });
 		</script>
 		
 		<!--[if lt IE 7 ]>

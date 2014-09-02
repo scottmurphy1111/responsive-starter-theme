@@ -71,7 +71,7 @@ body {
 }
 
 #pg-container {
-  padding: 1em;
+  padding: 0 1em;
 }
 #pg-container header {
   line-height: 5em;
